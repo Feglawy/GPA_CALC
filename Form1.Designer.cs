@@ -120,6 +120,7 @@
             Controls.Add(Calculate_Button);
             Controls.Add(label1);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "Form1";
             Text = "GPA Calculator";
             Load += Form1_Load;
